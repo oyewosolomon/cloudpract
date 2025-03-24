@@ -1,12 +1,12 @@
 "use client"
 
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 import { gsap } from 'gsap';
 import Link from 'next/link';
 
 const Nav = () => {
-  const [isActive, setIsActive] = useState(false);
+
 
   useEffect(() => {
     const header = document.querySelector('header');
